@@ -4,4 +4,6 @@ import { Component } from '@angular/core';
     selector: 'my-app',
     template: '<h1>My First Angular App</h1><profile></profile>'
 })
-export class AppComponent { }
+export class AppComponent {
+
+}

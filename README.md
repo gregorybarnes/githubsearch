@@ -1,7 +1,7 @@
 # Angular 2 Github Profile Finder App
 [![Build Status][travis-badge]][travis-badge-url]
 
-This is a basic Angular 2 app that allows a user to search for specific GitHub profiles using GitHub user names.  This app uses the GitHub API to populate components with aspects like Username, avatar image, link to profile, number or repos, gist, list of repos, etc...
+This is a basic Angular 2 app that allows a user to search for specific GitHub profiles using GitHub user names.  This app uses the GitHub API to populate components with aspects like Username, avatar image, link to profile, number of repos, gist, list of repos, etc...
 
 When a user types characters into the search bar the search results update in realtime with the best matches.
 
