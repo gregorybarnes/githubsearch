@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
+import { GithubService } from './services/github.services';
 
 @Component({
     selector: 'my-app',
-    template: '<h1>My First Angular App</h1><profile></profile>'
+    template: '<h1>My First Angular App</h1><profile></profile>',
+    providers: [ GithubService ]
 })
 export class AppComponent {
 
