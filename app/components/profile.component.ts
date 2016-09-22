@@ -12,15 +12,7 @@ export class ProfileComponent {
   repos: any;
   username: string;
   constructor(private _githubService:GithubService){
-    this._githubService.getUser().subscribe(user => {
-      //console.log(user);
-      this.user = user;
-    })
-
-    this._githubService.getRepos().subscribe(repos => {
-      //console.log(user);
-      this.repos = repos;
-    })
+    this.user = false;
   }
 
   searchUser(){
