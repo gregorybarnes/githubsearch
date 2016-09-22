@@ -1,16 +1,9 @@
-# Angular QuickStart Source
+# Angular 2 Github Profile Finder App
 [![Build Status][travis-badge]][travis-badge-url]
 
-This repository holds the TypeScript source code of the [angular.io quickstart](https://angular.io/docs/ts/latest/quickstart.html),
-the foundation for most of the documentation samples and potentially a good starting point for your application.
+This is a basic Angular 2 app that allows a user to search for specific GitHub profiles using GitHub user names.  This app uses the GitHub API to populate components with aspects like Username, avatar image, link to profile, number or repos, gist, list of repos, etc...
 
-It's been extended with testing support so you can start writing tests immediately.
-
-**This is not the perfect arrangement for your application. It is not designed for production.
-It exists primarily to get you started quickly with learning and prototyping in Angular**
-
-We are unlikely to accept suggestions about how to grow this QuickStart into something it is not.
-Please keep that in mind before posting issues and PRs.
+When a user types characters into the search bar the search results update in realtime with the best matches.
 
 ## Prerequisites
 
@@ -29,16 +22,15 @@ We recommend [nvm](https://github.com/creationix/nvm) for managing multiple vers
 
 Clone this repo into new project folder (e.g., `my-proj`).
 ```bash
-git clone  https://github.com/angular/quickstart  my-proj
+git clone  git@github.com:gregorybarnes/githubsearch.git  my-proj
+cd my-proj
+```
+OR
+```bash
+git clone  https://github.com/gregorybarnes/githubsearch.git  my-proj
 cd my-proj
 ```
 
-We have no intention of updating the source on `angular/quickstart`.
-Discard everything "git-like" by deleting the `.git` folder.
-```bash
-rm -rf .git  # non-Windows
-rd .git /S/Q # windows
-```
 
 ### Create a new git repo
 You could [start writing code](#start-development) now and throw it all away when you're done.
